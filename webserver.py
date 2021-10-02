@@ -14,11 +14,11 @@ serverSocket.listen()
 while True:
     #print message
     print("The server is ready to receive...")
-    #accept incomming request
+    #accept incoming request
     connectionSocket, add = serverSocket.accept()
 
     try:
-        #receve and decode
+        #receive and decode
         message = connectionSocket.recv(1024).decode()
         #extract file path
         filename = message.split()[1]
