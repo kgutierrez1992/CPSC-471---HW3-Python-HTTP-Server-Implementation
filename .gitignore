@@ -1,0 +1,5 @@
+#python virtual environment
+venv
+
+#Synology files
+.DS_Store
